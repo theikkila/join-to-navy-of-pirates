@@ -37,3 +37,13 @@ Make yourself familiar with Apache Cassandra (https://www.datastax.com/2012/01/g
 - [ ] What is the data storage model of Cassandra
 - [ ] Search for `what cassandra is good for`
 - [ ] Why you shouldn't use Cassandra?
+- [ ] How it's different from HBASE? 
+
+## Task 4: Elasticsearch
+
+Make yourself familiar with Elasticsearch (https://www.elastic.co/)
+
+- [ ] Install Elasticsearch (ie. with docker)
+- [ ] Ingest Blok.ai listing data into that (https://app.blok.ai/integrations/listing/feed/blok/json) so you can search from it.
+- [ ] Create small script with any language that you can use to query previous api items from the elasticsearch
+- [ ] What is Elasticsearch good for?
