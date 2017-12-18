@@ -63,7 +63,8 @@ Make yourself familiar with Elasticsearch (https://www.elastic.co/)
 - Namenode & Datanode
 - S3 vs HDFS
 
-## Task 7: Hive
+## Task 7: Hive & Presto
+- Amazon Athena
 
 ## Task 8: Metabase
 
@@ -112,3 +113,21 @@ https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
 ## Task 19: Distributed systems
 - Etcd
 - CAP-theorem
+- https://github.com/jaegertracing/jaeger
+- https://eng.uber.com/schemaless-part-one/
+
+## Task 20: Serverless
+- Lambda?
+- Cloud functions with Firebase
+
+## Task 21: Graph databases
+- Neo4j
+- OrientDB
+- Graph algorithms
+
+## Task 22: Relational databases
+- Mysql, Mariadb, postgresql, oracle, sql server, amazon rds, amazon aurora
+
+## Task 23: RabbitMQ
+- Amazon SQS?
+
