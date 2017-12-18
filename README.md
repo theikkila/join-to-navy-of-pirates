@@ -37,6 +37,9 @@ Make yourself familiar with Apache Kafka (https://kafka.apache.org/)
 - [ ] What is `exacly once` semantics? Why it is hard to implement?
 - [ ] Why you shouldn't use Kafka?
 - [ ] What are alternative products from AWS and Google?
+- [ ] Read about reliability of Kafka from Aphyr's blog (https://aphyr.com/posts/293-jepsen-kafka)
+- [ ] Read also about Zookeeper's reliability from Aphyr's blog (https://aphyr.com/posts/291-jepsen-zookeeper)
+
 
 ### Bonus
 - [ ] How Apache Kafka scales? What are partitions? Topics?
@@ -55,6 +58,7 @@ Make yourself familiar with Apache Cassandra (https://www.datastax.com/2012/01/g
 - [ ] DynamoDB vs. Cassandra?
 - [ ] Read how Reddit was using Cassandra for r/Place (https://redditblog.com/2017/04/13/how-we-built-rplace/)
 - [ ] But WHY?!
+- [ ] Read about reliability of Cassandra from Aphyr's blog (https://aphyr.com/posts/294-jepsen-cassandra)
 
 ### Bonus
 - [ ] Install Cassandra into container
@@ -70,9 +74,16 @@ Make yourself familiar with Elasticsearch (https://www.elastic.co/)
 - [ ] What is Elasticsearch good for?
 - [ ] What else there is if you need to have search engine for your data?
 - [ ] How does search engine indices work?
+- [ ] Read about reliability of ES from Aphyr's blog (https://aphyr.com/posts/323-jepsen-elasticsearch-1-5-0)
 
 
 ## Task 5: MapReduce
+
+- Read best possible introduction to MR from here (https://www.kchodorow.com/blog/2010/03/15/mapreduce-the-fanfiction/)
+- Implement following operations using just `map` and `reduce` steps:
+   - group by
+   - filter
+   - join
 
 ## Task 6: Hadoop & HDFS
 - Yarn
@@ -85,29 +96,50 @@ Make yourself familiar with Elasticsearch (https://www.elastic.co/)
 - Amazon Athena
 
 ## Task 8: Metabase
+- Install
+- Try it out
+- What it is?
 
 ## Task 9: Superset
+- Install
+- Try it out
+- What it is?
 
 ## Task 10: Grafana
+- Install
+- Try it out
+- What it is?
 
 ## Task 11: InfluxDB
 - Alternatives?
+- Read about TICK-stack
+- When you should use InfluxDB?
+- Find out what kind of data model influxdb is using
 
 ## Task 12: Redis
-- Simple alternative?
+- What it is?
+- Code simple alternative (just Key-Value functionality, no TTL)
 - Hosted?
+- Compare to Memcached
+- What it is good for?
+
 
 ## Task 13: Squoop
 http://sqoop.apache.org/docs/1.99.7/user/Sqoop5MinutesDemo.html
 
 ## Task 14: Zeppelin
+- What it is?
 - Can I use it in EMR?
+- Install and try the spark tasks with zeppelin
+- Plot hourly event count with Zeppelin
 
 ## Task 15: Kubernetes
 
 - Basics
 - Manifests
-- Hosted alternatives?
+- Hosted?
+- Alternatives?
+- What is etcd used for?
 
 ## Task 16: Maxwell's daemon & CDC
 https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
@@ -142,13 +174,18 @@ https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
 - Column oriented vs. Row oriented
 - Redshift?
 - Kudu/Impala?
-- 
+- Parquet, ORC, AVRO, JSON - make a grand comparision!
+- What kind of effect compression has?
 
 ## Task 19: Distributed systems
 - Etcd
 - CAP-theorem
-- https://github.com/jaegertracing/jaeger
-- https://eng.uber.com/schemaless-part-one/
+- Read aphyr's blog
+   - Start from here, continue until exhausted: https://aphyr.com/posts/333-serializability-linearizability-and-locality
+- Find out what is Jepsen test
+- How to debug distributed systems: https://github.com/jaegertracing/jaeger
+- Read how overengineering can be done with reliable components: https://eng.uber.com/schemaless-part-one/
+- Why they need that? Pros and cons?
 
 ## Task 20: Serverless
 - Lambda?
