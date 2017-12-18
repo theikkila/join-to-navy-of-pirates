@@ -121,15 +121,17 @@ https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
 ## Task 18: Data transport
 - For all of these:
   - find out what they are used for
-  - how they're different
-  - from each other?
+  - how they're different from each other?
   - do they use types?
+  - Pros/Cons?
 - JSON
 - Avro
 - Protobuf (see also GRPC)
 - Cap’n Proto
 - MessagePack
 - Transit (it's clojure stuff)
+- XML (see also SOAP)
+- YAML
 
 
 ## Task 18: Data storage
