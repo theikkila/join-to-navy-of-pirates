@@ -166,7 +166,7 @@ https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
 - YAML
 
 
-## Task 18: Data storage
+## Task 19: Data storage
 - Data lake?
 - EDW?
 - Data mart?
@@ -177,7 +177,7 @@ https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
 - Parquet, ORC, AVRO, JSON - make a grand comparision!
 - What kind of effect compression has?
 
-## Task 19: Distributed systems
+## Task 20: Distributed systems
 - Etcd
 - CAP-theorem
 - Read aphyr's blog
@@ -187,21 +187,21 @@ https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
 - Read how overengineering can be done with reliable components: https://eng.uber.com/schemaless-part-one/
 - Why they need that? Pros and cons?
 
-## Task 20: Serverless
+## Task 21: Serverless
 - Lambda?
 - Cloud functions with Firebase
 
-## Task 21: Graph databases
+## Task 22: Graph databases
 - Neo4j
 - OrientDB
 - Graph algorithms
 
-## Task 22: Relational databases
+## Task 23: Relational databases
 - Mysql, Mariadb, postgresql, oracle, sql server, amazon rds, amazon aurora
 
-## Task 23: RabbitMQ
+## Task 24: RabbitMQ
 - Amazon SQS?
 
-## Task 24: Scalability and architecture
+## Task 25: Scalability and architecture
 - [ ] Read http://highscalability.com/blog/2013/8/26/reddit-lessons-learned-from-mistakes-made-scaling-to-1-billi.html 
 - [ ] Admit that PostgreSQL is always a wise choice!
