@@ -26,7 +26,9 @@ Dataset: https://github.com/emblica/sessionization/blob/master/events.json.tar.g
 
 Make yourself familiar with Apache Kafka (https://kafka.apache.org/)
 
-- [ ] What is Kafka? How it's different from RabbitMQ or Redis pubsub?
+- [ ] What is Kafka? How it's different from RabbitMQ or Redis pubsub (!! pubsub not streams!)?
+- [ ] Read this (https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+- [ ] Read also this http://antirez.com/news/114
 - [ ] Kafka uses Zookeeper - what it is?
 - [ ] Do the Kafka quickstart and ingest some data into it, then process it out
 - [ ] What is Kafka good for?
