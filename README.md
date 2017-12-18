@@ -108,3 +108,7 @@ https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
 - Redshift?
 - Kudu/Impala?
 - 
+
+## Task 19: Distributed systems
+- Etcd
+- CAP-theorem
