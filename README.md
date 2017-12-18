@@ -118,6 +118,20 @@ https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/
 - Data Vault 2.0
 - Normalized or Denormalized
 
+## Task 18: Data transport
+- For all of these:
+  - find out what they are used for
+  - how they're different
+  - from each other?
+  - do they use types?
+- JSON
+- Avro
+- Protobuf (see also GRPC)
+- Cap’n Proto
+- MessagePack
+- Transit (it's clojure stuff)
+
+
 ## Task 18: Data storage
 - Data lake?
 - EDW?
