@@ -62,7 +62,7 @@ Make yourself familiar with Apache Cassandra (https://www.datastax.com/2012/01/g
 
 ### Bonus
 - [ ] Install Cassandra into container
-- [ ] Write small application that updates key-value pairs
+- [ ] Write small application that updates key-value pairs (see https://github.com/theikkila/join-to-navy-of-pirates/blob/master/excercises/playtracker.md)
 
 ## Task 4: Elasticsearch
 
@@ -122,6 +122,7 @@ Make yourself familiar with Elasticsearch (https://www.elastic.co/)
 - Hosted?
 - Compare to Memcached
 - What it is good for?
+- Write test application using redis (https://github.com/theikkila/join-to-navy-of-pirates/blob/master/excercises/playtracker.md)
 
 
 ## Task 13: Squoop
