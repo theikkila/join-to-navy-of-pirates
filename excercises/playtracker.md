@@ -1,7 +1,7 @@
 # Excercise: Playtracker
 
 In Netflix or Spotify for example you have timelines of your content.
-Ideally if you need to stop playing the content you can continue watching it from the same point later and even with totally different device.
+Ideally if you need to stop playing the content you can continue watching it from the same point later and even with a totally different device.
 
 
 ![](https://user-images.githubusercontent.com/608642/34182396-bdcbacd2-e51e-11e7-9df1-56141464535a.png)
